@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylej.css" />
+    <link rel="stylesheet" href="stylej1.css" />
+    <title>Adaptive header for site</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="#" class="logo" id="logo"><img src="logo.png" ></imgsrc> </a>
+          <ul class="menu" id="menu">
+            <li><a href="http://127.0.0.1:5500/">ГЛАВНАЯ</a></li>
+            <li><a href="http://127.0.0.1:5500/2index.html">УСЛУГИ</a></li>
+            <li><a href="#popup1">КОНТАКТЫ</a></li>
+            <li><a href="#popup2" >ЗАПИСАТЬСЯ НА РЕМОНТ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <form id="content">
+        <input type="text" name="text" class="input2" id="text-to-find" value="">
+        <input type="submit"name="submit1" class="submit1"onclick="javascript: FindOnPage('text-to-find'); return false;" value="Искать"/>
+    </form>
+        </body>
+<div class="mane">
+    <div class="col-md-4 menuItem">
+        <ul class="menuu" id="menuu">
+            <li> ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ</li>
+            <li class="detail" id="detail">
+                <div class="detail">Мойка технологическая<span class="price">130 &#8381</span></div>
+            </li>
+            <li class="detail" id="detail">
+                <div class="detail">Мойка наружная<span class="price"> 230 &#8381</span></div>
+            </li>
+            <li class="detail" id="detail">
+                <div class="detail">Мойка комплексная<span class="price">450 &#8381</span></div>
+            </li>
+            <li class="detail" id="detail">
+                Осмотр подвески<span class="price">250 &#8381</span>
+            </li>
+            <li class="detail" id="detail">
+                Комплексный Осмотр<span class="price">375 &#8381</span>
+            </li>
+            <li class="detail" id="detail">
+                Замена тормозных колодок<span class="price">500 &#8381</span>
+            </li>
+            <li class="detail" id="detail"> 
+                Замена дисковых тормозов<span class="price">700 &#8381</span>
+            </li>
+            <li class="detail" id="detail"> 
+                <div class="detail">Замена барабанных тормозов<span class="price">от 900 &#8381</span>
+            </li>
+            <li class="detail" id="detail">  
+               Замена масла<span class="price">300 &#8381</span>
+            </li>
+            <li class="detail" id="detail">
+               Замена подшипника ступицы<span class="price">750 &#8381</span>
+            </li>
+            <li class="detail" id="detail"> 
+                Сход развал<span class="price">от 600 &#8381</span>
+            </li>
+            <li class="detail" id="detail">
+                Замена масла АКПП<span class="price">от 800 &#8381</span>
+            </li>
+            <li class="detail" id="detail">
+                Замена масла МКПП<span class="price">от 450 &#8381</span>
+            </li>
+            <li class="detail" >
+                Замена нижних рычагов подвески<span class="price">от 750 &#8381</span>
+            </li>
+        </ul>
+        <script src="hi.js"></script>
+    </div>
+</div>  
+<div class="window">
+    <form action="" class="popupp" for="inn">
+        <span class="inn">Записаться на ремонт</span>
+        <input class=""type="" placeholder="ФИО" >
+        <input class=""type="" placeholder="Номер телефона">
+        <input class=""type="" placeholder="Ваш email">
+        <input class="sub"type="submit">
+     </form>
+     <iframe class="maps"src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac6a856bd6ab57f9191a48731ddc2673d3b0be1c6268f4a2ab7e2cee96cdff235&amp;source=constructor" width="480" height="480" frameborder="1"></iframe>
+</div>
+    
+  <div id="popup2" class="popup2">
+    <a href="#header" class="popup_area1"></a>
+    <div class="popup_body1">
+        <div class="popup_content1">
+            <a href="#header" class="popup_close1">+</a>
+            <div class="popup_title1">ЗАПИСАТЬСЯ НА РЕМОНТ</div>
+            <div class="popup_text1">
+                <input type="checkbox" id="modal">
+                <label class="btn" for="modal"></label>
+                    <span>Введите ваши даные</span>
+                    <input class="in"type="" placeholder="ФИО">
+                    <input class="in"type="" placeholder="Номер телефона">
+                    <input class="in"type="" placeholder="Ваш email">
+                    <input class="sub"type="submit">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="popup1" class="popup1">
+  <a href="#header" class="popup_area"></a>
+  <div class="popup_body">
+      <div class="popup_content">
+          <a href="#header" class="popup_close">+</a>
+          <div class="popup_title">КОНТАКТЫ</div>
+          <div class="popup_text">
+              <h3>(Автосервис)</h3>
+              <a class="phone7" href="tel:+78312164365">8 (831) 216-43-65</a>
+              <h4>(Запчасти)</h4>
+              <a class="phone8" href="tel:+78314101895">8 (831) 410-18-95</a>
+              <a class="ss1" href="mailto:optimaplusnn@mail.ru">optimaplusnn@mail.ru</a>
+          </div>
+      </div>
+  </div>
+</div>
+    </header>
+    <script src="scriptj.js"></script>
+  </body>
+</html>

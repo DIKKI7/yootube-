@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="stylej.css" />
+    <title>Adaptive header for site</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="#" class="logo" id="logo"><img src="logo.png" ></imgsrc> </a>
+          <ul class="menu" id="menu">
+            <li><a href="http://127.0.0.1:5500/">ГЛАВНАЯ</a></li>
+            <li><a href="http://127.0.0.1:5500/2index.html">УСЛУГИ</a></li>
+            <li><a href="#popup1">КОНТАКТЫ</a></li>
+            <li><a href="#popup2" >ЗАПИСАТЬСЯ НА РЕМОНТ</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="popup" id="popup"></div>
+    <header class="header">
+      <div id="slider">
+        <figure>
+            <img src="comp.jpg">
+            <img  clsss="kluch"src="kluch.jpg">
+        </figure>
+    </div>
+    <div id="main">
+      <div class="row" style="text-align: center;">
+        <hr />
+          <h2>ПОПУЛЯРНЫЕ УСЛУГИ</h2>
+          <hr />
+          <div class="col-md-4" >
+              <img src="diog.png"width="87%" style="position: relative; top: 25px">
+              <h3 style="position: relative; top: -20px;">ТЕХНИЧЕСКОЕ ОБСЛУЖИВАНИЕ</h3>
+              <p style="position: relative; top: -25px; width: 70%; left: 15%;">Технология ремонта кузова автомобиля включает в себя устранение всех дефектов:от коррозии и мелких вмятин до восстановления геометрии</p>
+          </div>
+          <div class="col-md-4" > 
+              <img src="pokras.png" width="87%" style="position: relative; top: 25px">
+              <h3 style="position: relative; top: -20px;">КУЗОВНОЙ РЕМОНТ</h3>
+              <p style="position: relative; top: -25px; width: 70%; left: 15%;">Комплекс мероприятий, направленных на контроль технического состояния авто, предотвращение возникновения неполадок или своевременное их устранение</p>    
+          </div>
+          <div class="col-md-4" > 
+            <img src="komp.png" width="87%" style="position: relative; top: 25px">
+            <h3 style="position: relative; top: -20px;">КОМПЬЮТЕРНАЯ ДИАГНОСТИКА </h3>
+            <p style="position: relative; top: -25px; width: 70%; left: 15%;">Комплекс мероприятий, направленных на контроль технического состояния авто, предотвращение возникновения неполадок или своевременное их устранениеист </p>    
+        </div>
+      </div>
+      <hr />
+      <div class="imgage_wrapper">
+        <h1 class="НАШИ">НАШИ СЕРТИФИКАТЫ</h1>
+        <hr />
+        <div class="glavimg">
+            <a  href="sert1-724x1024.jpg"><img src="sert1-724x1024.jpg" class="img0"></a>
+            <a  href="sert2-724x1024.jpg"><img src="sert2-724x1024.jpg" class="img1"></a>
+            <a  href="sert3-724x1024.jpg"><img src="sert3-724x1024.jpg" class="img2"></a>
+            <a  href="sert4-724x1024.jpg"><img src="sert4-724x1024.jpg" class="img3"></a>
+        </div>
+    </div>
+    <div class="imgage_wrapper">
+      <hr/>
+      <h1 class="НАШИ">КАК НАС НАЙТИ</h1>
+      <hr />
+      <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A7cec75b57224284be00cc03fe68eaaa202635e675864802571e36cfd2caf63b7&amp;width=100%25&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
+    </div>
+    <div class="down2">
+      <h6 class="add">Адрес, Почта:</h6>
+      <p>603002, г.Н.Новгород, ул. Марата, д. 51</p>
+      <a class="сылка" href="mailto:optimaplusnn@mail.ru">optimaplusnn@mail.ru</a>
+      <h2>Телефон:</h2>
+      <a class="phonee" href="tel:+78312164365">8 (831) 216-43-65</a>
+      <a class="phone2" href="tel:+78314101895">8 (831) 410-18-95</a>
+    </div>
+  </div>
+  <div id="popup2" class="popup2">
+    <a href="#header" class="popup_area1"></a>
+    <div class="popup_body1">
+        <div class="popup_content1">
+            <a href="#header" class="popup_close1">+</a>
+            <div class="popup_title1">ЗАПИСАТЬСЯ НА РЕМОНТ</div>
+            <div class="popup_text1">
+                <input type="checkbox" id="modal">
+                <label class="btn" for="modal"></label>
+                    <span>Введите ваши даные</span>
+                    <input class="in"type="" placeholder="ФИО">
+                    <input class="in"type="" placeholder="Номер телефона">
+                    <input class="in"type="" placeholder="Ваш email">
+                    <input class="sub"type="submit">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="popup1" class="popup1">
+  <a href="#header" class="popup_area"></a>
+  <div class="popup_body">
+      <div class="popup_content">
+          <a href="#header" class="popup_close">+</a>
+          <div class="popup_title">КОНТАКТЫ</div>
+          <div class="popup_text">
+              <h3>(Автосервис)</h3>
+              <a class="phone7" href="tel:+78312164365">8 (831) 216-43-65</a>
+              <h4>(Запчасти)</h4>
+              <a class="phone8" href="tel:+78314101895">8 (831) 410-18-95</a>
+              <a class="ss1" href="mailto:optimaplusnn@mail.ru">optimaplusnn@mail.ru</a>
+          </div>
+      </div>
+  </div>
+</div>
+    </header>
+    <script src="scriptj.js"></script>
+  </body>
+</html>
